@@ -4,19 +4,19 @@ import boardLayer.Board;
 import chessLayer.ChessPiece;
 import chessLayer.Color;
 
-public class King extends ChessPiece {
+public class Horse extends ChessPiece {
 	String pieceColor = "";
 
-	public King(Board board, Color color) {
+	public Horse(Board board, Color color) {
 		super(board, color);
 		choseColor(color);
 	}
 
-	public void choseColor(Color color) {
+	private void choseColor(Color color) {
 		if (color == Color.WHITE) {
-			pieceColor = "♔";
+			pieceColor = "♘";
 		} else {
-			pieceColor = "♚";
+			pieceColor = "♞";
 		}
 	}
 
