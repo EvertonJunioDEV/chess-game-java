@@ -12,16 +12,16 @@ public class Position {
 	public Position() {
 	}
 	
-	public Integer getRaw() {
+	public Integer getRows() {
 		return rows;
 	}
-	public void setRaw(Integer rows) {
+	public void setRows(Integer rows) {
 		this.rows = rows;
 	}
-	public Integer getColumn() {
+	public Integer getColumns() {
 		return columns;
 	}
-	public void setColumn(Integer columns) {
+	public void setColumns(Integer columns) {
 		this.columns = columns;
 	}
 	@Override
