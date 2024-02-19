@@ -20,3 +20,7 @@ The following tools and frameworks were used in the construction of the project:
   <img style='margin: 5px;' src='https://img.shields.io/badge/eclipse-ide%20-%2320232a.svg?&style=for-the-badge&color=darkblue&logo=eclipse&logoColor=darkblue'>
   <img style='margin: 5px;' src='https://img.shields.io/badge/git-%20%20-%2320232a.svg?&style=for-the-badge&color=orange&logo=git&logoColor=orange'/>
 </p>
+---
+## 📧 Contact
+- Email: everton.junio132@gmail.com
+- Linkedin: https://www.linkedin.com/in/everton-junio-dev
