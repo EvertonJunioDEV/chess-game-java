@@ -1,33 +1,37 @@
 package boardLayer;
 
 public class Position {
-	private Integer rows;
-	private Integer columns;
+	private int row;
+	private int column;
 	
-	public Position(Integer rows, Integer columns) {
-		this.rows = rows;
-		this.columns = columns;
+	public Position(int row, int column) {
+		this.row = row;
+		this.column = column;
+	}
+
+	public int getRow() {
+		return row;
+	}
+
+	public void setRow(int row) {
+		this.row = row;
+	}
+
+	public int getColumn() {
+		return column;
+	}
+
+	public void setColumn(int column) {
+		this.column = column;
 	}
 	
-	public Position() {
+	public void setValues(int row, int column) {
+		this.row = row;
+		this.column = column;
 	}
 	
-	public Integer getRows() {
-		return rows;
-	}
-	public void setRows(Integer rows) {
-		this.rows = rows;
-	}
-	public Integer getColumns() {
-		return columns;
-	}
-	public void setColumns(Integer columns) {
-		this.columns = columns;
-	}
 	@Override
 	public String toString() {
-		return rows + ", " + columns;
+		return row + ", " + column;
 	}
-	
-	
 }
